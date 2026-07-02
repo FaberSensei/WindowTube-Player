@@ -1,15 +1,15 @@
-# OBSYTPlayer
+# WindowTube Player
 
-A lightweight Electron-based YouTube player with a cleaner viewing experience.
+A lightweight Electron-based YouTube player that provides a clean, windowed fullscreen viewing experience.
 
 ## Screenshots
 
-### YouTube vs OBSYTPlayer
+### YouTube vs WindowTube Player
 
 <table>
 <tr>
 <td align="center"><b>YouTube</b></td>
-<td align="center"><b>OBSYTPlayer</b></td>
+<td align="center"><b>WindowTube Player</b></td>
 </tr>
 
 <tr>
@@ -26,10 +26,10 @@ A lightweight Electron-based YouTube player with a cleaner viewing experience.
 ## Features
 
 - Automatic Theater Mode
-- Full-window video player
+- Windowed fullscreen player
 - Home page and search work normally
 - Automatically selects the highest available video quality
-- Supports YouTube Premium (sign in normally)
+- Supports YouTube Premium (just sign in normally)
 - Portable and installer builds
 - Built with Electron
 
@@ -37,16 +37,16 @@ A lightweight Electron-based YouTube player with a cleaner viewing experience.
 
 Download the latest release from the **Releases** page.
 
-- **OBSYTPlayer Setup.exe** - Installs the application.
-- **OBSYTPlayer Portable.exe** - Runs without installation.
+- **WindowTube Player Setup.exe** — Installs the application.
+- **WindowTube Player.exe** — Runs without installation.
 
 ## Building
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/FaberSensei/OBSYTPlayer.git
-cd OBSYTPlayer
+git clone https://github.com/FaberSensei/WindowTube.git
+cd WindowTube
 ```
 
 Install dependencies:
@@ -55,7 +55,7 @@ Install dependencies:
 npm install
 ```
 
-Run the app:
+Run the application:
 
 ```bash
 npm start
@@ -72,7 +72,7 @@ npm run dist
 - Launch the application.
 - Sign in to your YouTube account if you want access to Premium features.
 - Browse YouTube normally from the home page.
-- Opening a video automatically switches to the player layout.
+- Opening a video automatically switches to the windowed fullscreen player.
 - Press **Backspace** while watching a video to return to the YouTube home page.
 
 ## License
@@ -81,4 +81,4 @@ This project is licensed under the MIT License.
 
 ## Disclaimer
 
-This project is an unofficial Electron wrapper for YouTube. It is not affiliated with, endorsed by, or sponsored by YouTube or Google. All trademarks belong to their respective owners.
+WindowTube Player is an unofficial Electron wrapper for YouTube. It is not affiliated with, endorsed by, or sponsored by YouTube or Google. All trademarks belong to their respective owners.

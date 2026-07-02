@@ -1,7 +1,7 @@
 {
-  "name": "obsytplayer",
+  "name": "windowtube-player",
   "version": "1.0.0",
-  "description": "A lightweight YouTube player for OBS",
+  "description": "A lightweight windowed fullscreen YouTube player",
   "main": "main.js",
   "author": "Faber",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "electron-builder": "^26.15.3"
   },
   "build": {
-    "appId": "com.faber.obsytplayer",
-    "productName": "OBSYTPlayer",
+    "appId": "com.faber.windowtubeplayer",
+    "productName": "WindowTube Player",
     "directories": {
       "output": "dist"
     },
@@ -47,7 +47,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "OBSYTPlayer",
+      "shortcutName": "WindowTube Player",
       "runAfterFinish": true
     }
   }
