@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder"
+    "dist": "electron-builder && node rename-build.js"
   },
   "devDependencies": {
     "electron": "^43.0.0",
@@ -15,7 +15,7 @@
   },
   "build": {
     "appId": "com.faber.windowtubeplayer",
-    "productName": "WindowTube Player",
+    "productName": "WindowTubePlayer",
     "directories": {
       "output": "dist"
     },
@@ -47,7 +47,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "WindowTube Player",
+      "shortcutName": "WindowTubePlayer",
       "runAfterFinish": true
     }
   }
