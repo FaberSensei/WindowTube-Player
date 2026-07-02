@@ -14,11 +14,11 @@ A lightweight Electron-based YouTube player with a cleaner viewing experience.
 
 <tr>
 <td>
-<img src="PASTE_YOUTUBE_SCREENSHOT_URL_HERE" width="450">
+<img src="https://github.com/user-attachments/assets/f60162e6-8170-46fd-b359-966fe239036a" width="450">
 </td>
 
 <td>
-<img src="PASTE_OBSYTPLAYER_SCREENSHOT_URL_HERE" width="450">
+<img src="https://github.com/user-attachments/assets/025b2e94-7a1d-4ece-918f-397ab7a29967" width="450">
 </td>
 </tr>
 </table>
