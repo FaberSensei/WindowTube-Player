@@ -1,0 +1,72 @@
+body:not(.obs-watch-page) #masthead {
+    display: flex !important;
+}
+
+body.obs-watch-page #masthead {
+    display: none !important;
+}
+
+body.obs-watch-page #guide,
+body.obs-watch-page #guide-content,
+body.obs-watch-page #mini-guide,
+body.obs-watch-page #secondary,
+body.obs-watch-page #below,
+body.obs-watch-page #comments,
+body.obs-watch-page #related,
+body.obs-watch-page #header,
+body.obs-watch-page #chips-wrapper,
+body.obs-watch-page ytd-comments,
+body.obs-watch-page ytd-watch-next-secondary-results-renderer,
+body.obs-watch-page #cinematics,
+body.obs-watch-page #cinematics-full-bleed-container {
+    display: none !important;
+}
+
+body.obs-watch-page,
+body.obs-watch-page ytd-app,
+body.obs-watch-page ytd-page-manager,
+body.obs-watch-page ytd-watch-flexy,
+body.obs-watch-page #page-manager,
+body.obs-watch-page #columns,
+body.obs-watch-page #primary {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+body.obs-watch-page #columns {
+    display: block !important;
+}
+
+body.obs-watch-page ytd-watch-flexy {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body.obs-watch-page #player-full-bleed-container,
+body.obs-watch-page #full-bleed-container,
+body.obs-watch-page #player-container,
+body.obs-watch-page #player,
+body.obs-watch-page #movie_player,
+body.obs-watch-page .html5-video-container {
+    position: fixed !important;
+    inset: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transform: none !important;
+}
+
+body.obs-watch-page video {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}

@@ -1,0 +1,54 @@
+{
+  "name": "obsytplayer",
+  "version": "1.0.0",
+  "description": "A lightweight YouTube player for OBS",
+  "main": "main.js",
+  "author": "Faber",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^43.0.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.faber.obsytplayer",
+    "productName": "OBSYTPlayer",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!dist/**/*",
+      "!node_modules/.cache/**/*"
+    ],
+    "asar": true,
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "OBSYTPlayer",
+      "runAfterFinish": true
+    }
+  }
+}
